@@ -1,0 +1,18 @@
+# rendered output lives in GitHub Releases, not in git
+renders/
+*.mp4
+*.mov
+*.wav
+snapshots/
+.hyperframes/
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# generated footage (fal output or placeholders.py) stays local
+**/assets/footage/*
+!**/assets/footage/README.md
+
+# reference-video breakdowns: other people's work stays on your machine
+.references/
